@@ -12,6 +12,11 @@ export default {
     name:'app',
     components:{
         Test,
+    },
+    data(){
+        return{
+            
+        }
     }
 }
 </script>
