@@ -9,15 +9,14 @@ const sassExtra = new ExtractTextWebpackPlugin({
     filename:'css/sass.css',
 })
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-console.log(111111111)
-console.log(111111111)
-console.log(111111111)
+
 if(process.env.NODE_ENV === 'development'){
     console.log('dev')
 }else if(process.env.NODE_ENV === 'production'){
     console.log('pro')
 }
-
+console.log(2222)
+console.log(222)
 module.exports = {
   entry: ["@babel/polyfill",path.resolve(__dirname,'../src/main.js')], //配置入口文件
   output: {
