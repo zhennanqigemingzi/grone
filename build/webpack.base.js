@@ -10,6 +10,8 @@ const sassExtra = new ExtractTextWebpackPlugin({
 })
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 console.log(111111111)
+console.log(111111111)
+console.log(111111111)
 if(process.env.NODE_ENV === 'development'){
     console.log('dev')
 }else if(process.env.NODE_ENV === 'production'){
