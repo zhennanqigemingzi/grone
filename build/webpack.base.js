@@ -9,8 +9,8 @@ const sassExtra = new ExtractTextWebpackPlugin({
     filename:'css/sass.css',
 })
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
-
-console.log('xiugaile')
+console.log(11111)
+console.log(2222)
 if(process.env.NODE_ENV === 'development'){
     console.log('dev')
 }else if(process.env.NODE_ENV === 'production'){
