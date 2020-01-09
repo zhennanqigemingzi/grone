@@ -15,7 +15,8 @@ if(process.env.NODE_ENV === 'development'){
 }else if(process.env.NODE_ENV === 'production'){
     console.log('pro')
 }
-
+console.log(3333)
+console.log(3444)
 module.exports = {
   entry: ["@babel/polyfill",path.resolve(__dirname,'../src/main.js')], //配置入口文件
   output: {
